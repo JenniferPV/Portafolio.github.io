@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">PORTAFOLIO</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">ASIGNATURA</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/inicio.jpg" alt="">
+            </div>
+            <h1>JENNIFER PARIONA VILLANUEVA</h1>
+            <h2>Estudiante de Ingenieria de Sistemas</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Jennifer Pariona Villnueva.</span>Estudio en Universidad Peruana de los Andes dentro de la carrera de Ingenieria de sistemas y computación. Me apasiona la explorar la tecnología y el impacto en la solución de problemas reales.
+            Estoy construyendo mi camino como ingeniera de sistemas donde puedo programar, hacer software, base de datos, análisis de sistemas, entre otros. Siempre buscando apreder mas sobre la tecnologia y compartir lo que sé con otros. Disfruto aprender y poner en práctica mis conocimientos, especialmente cuando puedo crear algo útil o innovador. </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños:</strong>
+                            25 - 03 - 2004
+                        </li>
+                        <li>
+                            <strong>Celular:</strong>
+                            900-696-467
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            pjennifermaite@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Jr. Huancayo
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>ASIGNATURA</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Base de Datos</h3>
+                    <img src="img/BASE_DE_DATOS" alt="">
+                    <div class="skill">
+                        <span>En la carrera de Ingeniería de Sistemas y Computación, una base de datos es un sistema organizado para almacenar, gestionar y manipular grandes cantidades de información de manera eficiente. Los estudiantes aprenden a diseñar bases de datos, usar lenguajes como SQL para consultar y modificar datos, y manejar herramientas que gestionan la información (como MySQL o SQL Server). Además, estudian cómo optimizar el rendimiento, asegurar la integridad de los datos y garantizar la seguridad en el acceso a la base de datos.
+                        </span>
+                            </div>
+                        
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Semana 1</h3>
+                        <a href="PDF/ACTIVIDAD 1_PARIONA.pdf" target="_blank" > Modelo conceptual de base de datos</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/2.png" alt="">
+                    <div class="overlay">
+                        <h3>Semana 2</h3>
+                        <a href="PDF/ACTIVIDAD 2_PARIONA.pdf" target="_blank" >Modelo Entidad - Relación</a>
+                    </div>
+                </div><div class="proyecto">
+                    <img src="img/3.png" alt="">
+                    <div class="overlay">
+                        <h3>Semana 3</h3>
+                        <a href="PDF/Semana3.pdf" target="_blank" >Modelo Lógico</a>
+                    </div>
+                </div><div class="proyecto">
+                    <img src="img/4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Semana 4</h3>
+                        <a href="PDF/SEMANA4.pdf" target="_blank" >Implementación en FireBase</a>
+                    </div>
+                </div><div class="proyecto">
+                    <img src="img/5.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Semana 5</h3>
+                        <a href="PDF/PARIONAJENNIFER_SEMANA5.pdf" target="_blank" >Consultas básicas en SQL Server y PostgreSQL</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Semana 6</h3>
+                        <a href="PDF/BASEDATOSJENNIFER_SEMANA6.pdf" target="_blank" >Consultas Avanzadas en SQL Server</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/8.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Semana 8</h3>
+                        <a href="PDF/PARIONA,ennifer.pdf" target="_blank" >Examen parcial</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/USUARIO_CREAR.png" alt="">
+                    <div class="overlay">
+                        <h3>Semana 9</h3>
+                        <a href="semana9.html" target="_blank" >CREACION DE USUARIO</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/ENCRIPTACION.png" alt="">
+                    <div class="overlay">
+                        <h3>Semana 10</h3>
+                        <a href="semana10.html" target="_blank" >ENCRIPTADO SQL SERVER</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Semana 11</h3>
+                        <a href="PDF/Normas.pdf" target="_blank" >Normas Sql</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Semana 12</h3>
+                        <a href="PDF/100datos.pdf" target="_blank" >100 DATOS SQL SERVER</a>
+                    </div>
+                </div>
+                
+                <div class="proyecto">
+                    <img src="img/LIBRO.png" alt="">
+                    <div class="overlay">
+                        <h3>Semana 13</h3>
+                        <a href="PDF/ResumenSql.pdf" target="_blank" >Resumen Libro Sql</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Semana 14</h3>
+                        <a href="semana15.html" target="_blank" >Entrega de PAGINA</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/EXAMEN.png" alt="">
+                    <div class="overlay">
+                        <h3>Semana 15</h3>
+                        <a href="PDF/ExamenFinal_Jennifer.pdf" target="_blank" >PROYECTO FINAL</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Nicaragua 159, San Rafael Mza
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 2384 - 4343443 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: cw@example.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
